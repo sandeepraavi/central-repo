@@ -1,0 +1,13 @@
+package inheritance;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SpellChecker {
+	public List<String> words = new ArrayList<String>();
+	
+	public static void main(String[] args) {
+
+	}
+
+}

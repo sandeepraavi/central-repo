@@ -1,0 +1,14 @@
+package inheritance;
+
+import java.util.Scanner;
+
+public class NumberLetter {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String intput = sc.nextLine();
+		
+		
+	}
+
+}

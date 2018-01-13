@@ -1,0 +1,31 @@
+package inheritance;
+
+public class Substrings {
+
+	public static void main(String[] args) {
+		String s1 = "worldwar".toLowerCase();
+		String s2 = "rworldWa".toLowerCase();
+		
+		
+		String snew = s2+s2;
+		System.out.println(snew.contains(s1));
+		System.out.println(snew.indexOf(s1));
+		
+		/*int s2fristIndex = 0;
+		int count = 0;
+		char firstChar = s1.charAt(0);
+		System.out.println(firstChar);
+		for (int i = 0; i < s2.length(); i++) {
+			if (firstChar == s2.charAt(i)) {
+				s2fristIndex = i;
+				count++;
+			}
+		}
+		System.out.println(s2fristIndex);
+		if (count == 1) {
+			String part1 = s2.substring(0, s2fristIndex);
+			String part2 = s2.substring(s2fristIndex, s2.length());
+			System.out.println(part2 + part1);
+		}*/
+	}
+}

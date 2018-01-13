@@ -1,0 +1,27 @@
+package inheritance;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Calculation {
+	public Severity ss;
+	public Calculation() {//Constructor
+		System.out.println("Parent constructor");
+	}
+
+	public int add(int a, int b){
+		int add = a+b;
+		Severity aa = ss.high;
+		return add;
+	}
+	public int subtarct(int a, int b){
+		int sub = a-b;
+		return sub;
+	}
+	public static void main(String[] args) {
+		DateFormat df = new SimpleDateFormat("MM/dd/yy hh:mm:ss");
+		Date date = new Date();
+		System.out.println(date.getDate());
+	}
+}

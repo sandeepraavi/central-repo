@@ -1,0 +1,43 @@
+package inheritance;
+
+import java.util.Arrays;
+
+public class assa {
+	static void removeDuplicates(int[] arrayWithDuplicates) {
+		System.out.println("Array With Duplicates : ");
+
+		for (int i = 0; i < arrayWithDuplicates.length; i++) {
+			System.out.print(arrayWithDuplicates[i] + "\t");
+		}
+		int noOfUniqueElements = arrayWithDuplicates.length;
+		for (int i = 0; i < noOfUniqueElements; i++) {
+			for (int j = i + 1; j < noOfUniqueElements; j++) {
+				if (arrayWithDuplicates[i] == arrayWithDuplicates[j]) {
+					arrayWithDuplicates[j] = arrayWithDuplicates[noOfUniqueElements - 1];
+					noOfUniqueElements--;
+					j--;
+				}
+			}
+		}
+		int[] arrayWithoutDuplicates = Arrays.copyOf(arrayWithDuplicates, noOfUniqueElements);
+		System.out.println();
+		System.out.println("Array Without Duplicates : ");
+		for (int i = 0; i < arrayWithoutDuplicates.length; i++) {
+			System.out.print(arrayWithoutDuplicates[i] + "\t");
+		}
+		System.out.println();
+		System.out.println("==============================");
+	}
+
+	public static void main(String[] args) {
+		String car = "audi,audi,bmw,camry";
+		String[] carsArray = car.split(",");
+		String[] arrayWithoutDuplicates = Arrays.copyOf(carsArray, carsArray.length);
+		/*for (int i = 0; i < carsArray.length; i++) {
+			System.out.print(carsArray[i]+"\t");
+		}*/
+		/*removeDuplicates(new String[]  {"audi", "audi", "bmw", "camry"});
+		removeDuplicates(new String[]  {"audi", "audi", "bmw", "camry"});*/
+		removeDuplicates(new int[]  {12, 11,15,12,11,16,15,20});
+	}
+}
