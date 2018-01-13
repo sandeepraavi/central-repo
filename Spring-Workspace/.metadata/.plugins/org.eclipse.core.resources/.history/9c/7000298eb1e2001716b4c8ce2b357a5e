@@ -1,0 +1,46 @@
+package beans;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Student {
+	private String studentName;
+	private String studentHobby;
+	private Long mobileNo;
+	private Date dob;
+	private ArrayList<String> studentSkills;
+	
+	public Long getMobileNo() {
+		return mobileNo;
+	}
+	public void setMobileNo(Long mobileNo) {
+		this.mobileNo = mobileNo;
+	}
+	public Date getDob() {
+		return dob;
+	}
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+	public ArrayList<String> getStudentSkills() {
+		return studentSkills;
+	}
+	public void setStudentSkills(ArrayList<String> studentSkills) {
+		this.studentSkills = studentSkills;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public String getStudentHobby() {
+		return studentHobby;
+	}
+	public void setStudentHobby(String studentHobby) {
+		this.studentHobby = studentHobby;
+	}
+
+	
+
+}

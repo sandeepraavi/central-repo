@@ -1,0 +1,116 @@
+package crypt;
+
+class Avg implements Runnable
+{
+   int k;
+   Thread threadAvg;
+
+   Avg()
+   { 
+      threadAvg = new Thread(this, "my runnable avg thread");
+      System.out.println("thread avg created : " + threadAvg);
+      threadAvg.start();
+   }
+   public void run()
+   {
+
+     for(int j = 0; j < AvgMinMax.number.length; j++)
+     {
+      k = k+AvgMinMax.number[j];
+     }
+    AvgMinMax.avg = (double)k/(AvgMinMax.number.length); // computes avg 
+    System.out.println("threadAvg run is over" );
+   }
+}
+
+class Min implements Runnable
+{
+   Thread threadMin;
+
+   Min()
+   { 
+      threadMin = new Thread(this, "my runnable min thread");
+      System.out.println("thread min created : " + threadMin);
+      threadMin.start();
+   }
+   public void run()
+   {
+
+     int minimum = AvgMinMax.number[0];
+    // calculating minimum number
+    for(int i=0; i< AvgMinMax.number.length; i++)
+    {
+      if (AvgMinMax.number[i] < minimum)                      
+       minimum = AvgMinMax.number[i];           
+    }
+
+    AvgMinMax.min = minimum;
+    System.out.println("threadMin run is over" );
+   }
+}
+
+class Max implements Runnable
+{
+   Thread threadMax;
+
+   Max()
+   { 
+      threadMax = new Thread(this, "my runnable max thread");
+      System.out.println("thread min created : " + threadMax);
+      threadMax.start();
+   }
+   public void run()
+   {
+
+     int maximum = AvgMinMax.number[0];
+    // calculating minimum number
+    for(int i=0; i< AvgMinMax.number.length; i++)
+    {
+      if (AvgMinMax.number[i] > maximum)                      
+       maximum = AvgMinMax.number[i];           
+    }
+
+    AvgMinMax.max = maximum;
+    System.out.println("thread max run is over" );
+   }
+}
+
+class AvgMinMax
+{
+  static int[] number;
+  static double avg;
+  static int min;
+  static int max;
+      
+    public static void main(String args[])
+    {
+      number = new int[args.length];
+      for(int x=0; x<args.length; x++)
+      {
+        number[x] = Integer.parseInt(args[x]);
+      }
+
+       Avg avg = new Avg();
+       Min min = new Min();
+       Max max = new Max();
+
+       try
+       {
+          while(avg.threadAvg.isAlive() || min.threadMin.isAlive() || max.threadMax.isAlive())
+          {
+            System.out.println("Main thread is waiting...");
+            Thread.sleep(300);
+          }
+       }
+       catch(InterruptedException e)
+       {
+          System.out.println("Main thread interrupted");
+       }
+
+       System.out.println("Average number is : " + AvgMinMax.avg);
+       System.out.println("Min number is : " + AvgMinMax.min);
+       System.out.println("Max number is : " + AvgMinMax.max);
+    
+       System.out.println("Main thread run is over" );
+    }
+}

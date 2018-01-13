@@ -1,0 +1,4 @@
+127.0.0.1 - - [18/Dec/2017:18:11:28 -0500] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [18/Dec/2017:18:11:32 -0500] "GET /FirstSpringDemo/ HTTP/1.1" 404 949
+127.0.0.1 - - [18/Dec/2017:18:11:47 -0500] "GET /FirstSpringDemo/admissionForm.html HTTP/1.1" 200 2635
+127.0.0.1 - - [18/Dec/2017:18:13:22 -0500] "POST /FirstSpringDemo/submitAdmissionForm1.html HTTP/1.1" 200 1025

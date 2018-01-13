@@ -1,0 +1,14 @@
+package com.firstSpring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class StudentAdmissionController {
+	@RequestMapping(value = "/admissionForm.html", method = RequestMethod.GET)
+	public ModelAndView getAdmissionForm() {
+		ModelAndView modelAndView = new ModelAndView("AdmissionForm");
+		return modelAndView;
+	}
+}

@@ -1,0 +1,32 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="ParentClass"><rhs name\="ParentClass"/><rhs name\="ChildClass"/></lhs><lhs name\="ChildClass"><rhs name\="ChildClass"/></lhs><lhs name\="NannakuPrematho"><rhs name\="NannakuPrematho"/></lhs><lhs name\="AgeCalculator"><rhs name\="AgeCalculator"/></lhs><lhs name\="Parent"><rhs name\="Parent"/><rhs name\="Child"/></lhs><lhs name\="Child"><rhs name\="Child"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="Networking" enabled\="true" name\="dp">default_packet_</template><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="chandra">   if(p \=\= 0) {&\#13;\r\n\t    \tSystem.out.println("Entered if for the power 0");&\#13;\r\n\t    &\#13;\r\n\t    \treturn 1;&\#13;\r\n\t    }&\#13;\r\n\t    else{&\#13;\r\n\t    double answer \= Math.pow(b, p);&\#13;\r\n\t    System.out.println("the value of the power "+b+" to "+p+" is\:\:");&\#13;\r\n\t    return answer;&\#13;\r\n\t    }</template></templates>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
+sourceHoverBackgroundColor=255,255,225
+spelling_ignore_ampersand_in_properties=true
+spelling_ignore_digits=true
+spelling_ignore_java_strings=true
+spelling_ignore_mixed=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
+spelling_ignore_single_letters=true
+spelling_ignore_upper=true
+spelling_ignore_urls=true
+spelling_locale_initialized=true
+spelling_user_dictionary_encoding=
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

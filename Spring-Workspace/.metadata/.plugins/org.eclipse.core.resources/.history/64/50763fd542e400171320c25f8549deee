@@ -1,0 +1,14 @@
+package editors;
+
+
+public class StudentNameEditor extends PropertyEditorSupport  {
+
+
+	@Override
+	public void setAsText(String studentName) throws IllegalArgumentException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}
