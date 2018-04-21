@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;editors.com.firstSpring.controller&apos; to &apos;editors&apos;&#x0D;&#x0A;- Original project: &apos;FirstSpringDemo&apos;&#x0D;&#x0A;- Original element: &apos;FirstSpringDemo/src/editors.com.firstSpring.controller&apos;&#x0D;&#x0A;- Renamed element: &apos;FirstSpringDemo/src/editors&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;editors.com.firstSpring.controller&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;editors.com.firstSpring.controller" name="editors" qualified="false" references="true" stamp="1513635837936" textual="false" version="1.0"/>
-</session>

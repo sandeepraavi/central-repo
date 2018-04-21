@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14545558018590" configfile="/DemoServlets/WebContent/WEB-INF/faces-config.xml">
-  <nodes xsi:type="pageflow:PFPage" name="WEB-INF/Templates/login.html" x="126" y="204" id="pf14567269027060" outlinks="pf14567269027061 pf14567269886303" path="/WEB-INF/Templates/login.html"/>
-  <nodes xsi:type="pageflow:PFPage" name="WEB-INF/Templates/Welcome" x="545" y="354" id="pf14567269027062" inlinks="pf14567269027061" path="/WEB-INF/Templates/Welcome.jsp"/>
-  <nodes xsi:type="pageflow:PFPage" name="WEB-INF/Templates/HelloWorld" x="245" y="371" id="pf14567269886304" inlinks="pf14567269886303" path="/WEB-INF/Templates/HelloWorld.jsp"/>
-  <links id="pf14567269027061" target="pf14567269027062" source="pf14567269027060" outcome="true"/>
-  <links id="pf14567269886303" target="pf14567269886304" source="pf14567269027060" outcome="false"/>
-</pageflow:Pageflow>

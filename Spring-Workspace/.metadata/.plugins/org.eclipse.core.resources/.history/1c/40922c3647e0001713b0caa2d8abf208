@@ -1,5 +1,0 @@
-package com.firstSpring.controller;
-
-public class FirstController extends AbstractController {
-
-}

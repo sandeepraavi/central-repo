@@ -1,8 +1,0 @@
-package editors;
-
-import java.beans.PropertyEditor;
-
-public class StudentNameEditor implements PropertyEditor  {
-
-
-}

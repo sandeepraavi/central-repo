@@ -1,7 +1,0 @@
-package editors;
-
-
-public class StudentNameEditor implements PropertyEditorSupport  {
-
-	
-}
