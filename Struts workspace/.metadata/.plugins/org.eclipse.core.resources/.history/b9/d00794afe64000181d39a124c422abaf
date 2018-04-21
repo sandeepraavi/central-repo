@@ -1,0 +1,13 @@
+package methodOverriding;
+
+public class Parent {
+
+	void color() throws Exception {
+		System.out.println("Parent");
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

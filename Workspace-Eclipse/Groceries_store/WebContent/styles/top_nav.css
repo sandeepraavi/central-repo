@@ -1,0 +1,119 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.navv {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #1ab188;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-left {
+	float: left;
+	overflow: auto;
+	display: block;
+}
+
+#logo {
+	vertical-align: middle;
+}
+
+.nav-right {
+	width: 100%;
+}
+
+.nav-right-top {
+	overflow: auto;
+}
+
+#search-input {
+	float: left;
+	margin: 10px 0px 10px 64px;
+	padding: 3px;
+}
+
+#search-button {
+	float: left;
+	margin: 10px 0px 10px 0px;
+	padding: 3px;
+}
+
+.p {
+	margin: 0;
+}
+
+.welcome-note {
+	float: right;
+	line-height: 0px;
+	padding-right: 30px;
+	color: white;
+	    margin-top: 25px;
+}
+
+#login-button {
+	margin-left: 20px;
+	text-decoration: none;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	color: black;
+}
+
+.ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	line-height: 5px;
+	margin-left: 200px;
+}
+
+.li {
+	float: left;
+}
+
+.li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.li a:hover, .dropdwn:hover .dropbtn {
+	background-color: red;
+}
+
+.li.dropdwn {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdwn:hover .dropdown-content {
+	display: block;
+}

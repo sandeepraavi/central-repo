@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 0 source folders to &apos;CollegeRegistration&apos;&#x0D;&#x0A;- Destination element: &apos;CollegeRegistration&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folders" destination="=CollegeRegistration" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="0" stamp="1521149634137" version="1.0"/>
+</session>

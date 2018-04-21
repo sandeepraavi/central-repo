@@ -1,0 +1,17 @@
+package methodOverriding;
+
+public class Child extends Parent {
+	void color()  {
+		System.out.println("Child");
+	}
+
+	public static void main(String[] args) {
+		Parent childRef = new Child();
+		Child cd = new Child();
+Parent pare= new Parent();
+		//cd.color();
+		//childRef.color();
+pare.color();
+	}
+
+}

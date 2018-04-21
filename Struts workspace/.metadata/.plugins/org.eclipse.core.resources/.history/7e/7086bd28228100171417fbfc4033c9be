@@ -1,0 +1,21 @@
+package inheritance;
+
+public class Calculation {
+	public Severity ss;
+	public Calculation() {//Constructor
+		System.out.println("Parent constructor");
+	}
+
+	public int add(int a, int b){
+		int add = a+b;
+		Severity aa = ss.high;
+		return add;
+	}
+	public int subtarct(int a, int b){
+		int sub = a-b;
+		return sub;
+	}
+	public static void main(String[] args) {
+		
+	}
+}

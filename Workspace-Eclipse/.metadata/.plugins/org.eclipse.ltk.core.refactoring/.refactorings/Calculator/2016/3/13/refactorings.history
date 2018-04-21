@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.company.Main&apos; to &apos;GBN&apos;&#x0D;&#x0A;- Original project: &apos;Calculator&apos;&#x0D;&#x0A;- Original element: &apos;com.company.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;com.company.GBN&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.company{Main.java[Main" matchStrategy="1" name="GBN" qualified="false" references="true" similarDeclarations="false" stamp="1458697845815" textual="false" version="1.0"/>
+</session>

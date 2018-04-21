@@ -1,0 +1,25 @@
+package beans;
+
+public class Student {
+	private String studentName;
+	private Long studentMobile;
+	private Address studentAddress;
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public Long getStudentMobile() {
+		return studentMobile;
+	}
+	public void setStudentMobile(Long studentMobile) {
+		this.studentMobile = studentMobile;
+	}
+	public Address getStudentAddress() {
+		return studentAddress;
+	}
+	public void setStudentAddress(Address studentAddress) {
+		this.studentAddress = studentAddress;
+	}
+}

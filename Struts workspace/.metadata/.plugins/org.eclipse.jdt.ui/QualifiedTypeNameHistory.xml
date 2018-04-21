@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.Calculation"/>
+<fullyQualifiedTypeName name="java.MyCalculation"/>
+<fullyQualifiedTypeName name="java_My.MyCalculation"/>
+<fullyQualifiedTypeName name="java_My.Calculation"/>
+<fullyQualifiedTypeName name="interfaces.InterfaceClass"/>
+<fullyQualifiedTypeName name="interfaces.SecondInterface"/>
+<fullyQualifiedTypeName name="interfaces.MainClass"/>
+<fullyQualifiedTypeName name="inheritance.MyCalculation"/>
+<fullyQualifiedTypeName name="inheritance.MainClass"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="inheritance.JsonParser"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="inheritance.A"/>
+<fullyQualifiedTypeName name="inheritance.Child"/>
+<fullyQualifiedTypeName name="inheritance.Parent"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+</qualifiedTypeNameHistroy>

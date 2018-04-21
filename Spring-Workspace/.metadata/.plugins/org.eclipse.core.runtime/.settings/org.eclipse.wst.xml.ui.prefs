@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newFileTemplateName=xml declaration
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="xml_all" deleted\="false" description\="web.xml modification to dispatcher servlet" enabled\="true" name\="servlet-dispatcher">&lt;servlet&gt;&\#13;\r\n\t\t&lt;servlet-name&gt;spring-dispatcher&lt;/servlet-name&gt;&\#13;\r\n\t\t&lt;servlet-class&gt;org.springframework.web.servlet.DispatcherServlet&lt;/servlet-class&gt;&\#13;\r\n\t&lt;/servlet&gt;&\#13;\r\n\t&lt;servlet-mapping&gt;&\#13;\r\n\t\t&lt;servlet-name&gt;spring-dispatcher&lt;/servlet-name&gt;&\#13;\r\n\t\t&lt;url-pattern&gt;/&lt;/url-pattern&gt;&\#13;\r\n\t&lt;/servlet-mapping&gt;</template></templates>
+org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.lastActivePage=1

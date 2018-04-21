@@ -1,0 +1,12 @@
+127.0.0.1 - - [15/Dec/2017:09:40:31 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:09:40:40 -0500] "GET /FirstSpringDemo/ HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:09:40:55 -0500] "GET /FirstSpringDemo/welcome/Sandeep/USA HTTP/1.1" 200 1228
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:09:41:37 -0500] "GET /FirstSpringDemo/welcome/Sandeep/USA HTTP/1.1" 200 1228
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:09:41:43 -0500] "GET /FirstSpringDemo/welcome/Sandeep/USA HTTP/1.1" 200 1227
+127.0.0.1 - - [15/Dec/2017:10:10:53 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:10:10:56 -0500] "GET /FirstSpringDemo/ HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:10:11:00 -0500] "GET /FirstSpringDemo/admissionForm.html HTTP/1.1" 200 593
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:10:11:12 -0500] "POST /FirstSpringDemo/submitAdmissionForm.html HTTP/1.1" 400 1076
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:10:12:07 -0500] "GET /FirstSpringDemo/admissionForm.html HTTP/1.1" 200 593
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:10:12:16 -0500] "POST /FirstSpringDemo/submitAdmissionForm.html HTTP/1.1" 200 311
+0:0:0:0:0:0:0:1 - - [15/Dec/2017:10:13:15 -0500] "POST /FirstSpringDemo/submitAdmissionForm.html HTTP/1.1" 200 358

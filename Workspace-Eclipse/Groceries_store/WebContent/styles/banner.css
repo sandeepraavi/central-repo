@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+.item-name{
+font-size: -webkit-xxx-large;
+}
+
+.item-price{
+	font-size: xx-large;
+	color:red;
+}
+
+.op{
+	color:green;
+}
+
+.offer-price{
+font-size: xx-large;	
+}
+
+.item{
+background: rgba(26, 177, 136, 0.29);	
+    padding: 60px 200px;
+    text-align: center;
+}
+
+.container{
+	    margin-top: 70px;
+}
+
+.carousel{
+	    z-index: -30;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 70%;
+	margin: auto;
+}
+
+.carousel-control.left {
+	    background: darkgray;
+}
+
+.carousel-control.right {
+	    background: darkgray;
+}

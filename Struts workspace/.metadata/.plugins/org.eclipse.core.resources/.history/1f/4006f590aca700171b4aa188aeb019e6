@@ -1,0 +1,9 @@
+package inheritance;
+
+public class JollyTest {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

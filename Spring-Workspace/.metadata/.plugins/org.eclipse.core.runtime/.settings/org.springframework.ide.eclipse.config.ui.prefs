@@ -1,0 +1,6 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/FirstSpringDemo/WebContent/WEB-INF/spring-dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/FirstSpringMVCProject/WebContent/WEB-INF/spring-dispatcher-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/file/src/main/resources/META-INF/spring/integration/fileCopyDemo-binary.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/file/src/main/resources/META-INF/spring/integration/fileCopyDemo-file.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/basic/jdbc/src/main/resources/META-INF/spring/integration/spring-integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

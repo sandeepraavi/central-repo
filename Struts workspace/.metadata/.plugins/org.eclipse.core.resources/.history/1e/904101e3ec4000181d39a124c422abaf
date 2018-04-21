@@ -1,0 +1,18 @@
+package methodOverriding;
+
+import java.io.IOException;
+
+public class Parent {
+	public  Parent() {
+		System.out.println("Parent constructor");
+	}
+
+	void color() throws IOException {
+		System.out.println("Parent");
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

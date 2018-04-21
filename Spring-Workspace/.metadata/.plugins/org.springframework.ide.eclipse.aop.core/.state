@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="demo"/>
+<aop-project name="jdbc"/>
+<aop-project name="sftp"/>
+<aop-project name="file"/>
+</aop-reference-model>

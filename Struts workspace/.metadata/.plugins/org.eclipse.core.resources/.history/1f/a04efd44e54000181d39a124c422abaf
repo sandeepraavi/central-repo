@@ -1,0 +1,14 @@
+package methodOverriding;
+
+public class Child extends Parent {
+	void color() throws NullPointerException {
+		System.out.println("Child");
+	}
+
+	public static void main(String[] args) {
+		Parent childRef = new Child();
+		Child cd = new Parent();
+		childRef.color();
+	}
+
+}

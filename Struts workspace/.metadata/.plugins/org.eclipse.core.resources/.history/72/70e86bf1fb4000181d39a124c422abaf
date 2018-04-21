@@ -1,0 +1,18 @@
+package staticDemo;
+
+public class OuterClass {
+	private  String str = "BeginnersBook";
+
+	public static class InnerClass {
+		public void disp() {
+
+			System.out.println(str);
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

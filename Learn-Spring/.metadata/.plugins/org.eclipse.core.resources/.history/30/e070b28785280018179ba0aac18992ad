@@ -1,0 +1,7 @@
+package beans;
+
+public class Student {
+	private String studentName;
+	private Long studentMobile;
+	private Address studentAddress;
+}

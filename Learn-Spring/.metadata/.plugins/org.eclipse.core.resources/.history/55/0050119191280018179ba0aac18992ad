@@ -1,0 +1,50 @@
+package controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class StudentAdmissionController {
+
+	/*@InitBinder
+	public void initBinder(WebDataBinder binder) {
+
+		// binder.setDisallowedFields(new String[] {"studentMobile"});
+		SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+		binder.registerCustomEditor(Date.class, "studentDOB", new CustomDateEditor(dateFormat, false));
+		//binder.registerCustomEditor(String.class, "studentName", new StudentNameEditor());
+	}*/
+	@RequestMapping("/")
+	@ResponseBody
+	public String getResp() {		
+		return "From Spring Boot";
+	}
+	/*@RequestMapping(value = "/admissionForm.html", method = RequestMethod.GET)
+	public ModelAndView getAdmissionForm() {
+
+		ModelAndView model1 = new ModelAndView("AdmissionForm");
+		return model1;
+	}
+
+	@ModelAttribute
+	public void addingCommonObjects(Model model1) {
+
+		model1.addAttribute("headerMessage", "College of Engineering, India");
+	}
+
+	@RequestMapping(value = "/submitAdmissionForm.html", method = RequestMethod.POST)
+	public ModelAndView submitAdmissionForm(@Valid @ModelAttribute("student1") Student student, BindingResult result,
+			LocaleResolver localResolver) {
+
+		if (result.hasErrors()) {
+
+			ModelAndView model1 = new ModelAndView("AdmissionForm");
+			return model1;
+		}
+
+		ModelAndView model1 = new ModelAndView("AdmissionSuccess");
+		return model1;
+	}
+
+*/}

@@ -1,0 +1,29 @@
+package inheritance;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class SpellChecker {
+	public List<String> words = Arrays.asList("phone","pillow","elephant","listen","televison","couch");
+	int count=0;
+	private List<String> checker(String s) {
+		List<String> sugWords = new ArrayList<String>();
+		for (int i = 0; i < words.size(); i++) {
+			if (s.equals(words.get(i))) {
+				count ++;
+			}
+		}
+		if(count>0){
+			System.out.println(sugWords.size());
+		}
+		return words;
+	}
+	
+	public static void main(String[] args) {
+		SpellChecker sc = new SpellChecker();
+		 sc.checker("phone");
+		
+	}
+
+}

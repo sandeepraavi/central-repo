@@ -1,0 +1,20 @@
+package methodOverriding;
+
+public class Child extends Parent {
+	public Child() {
+	System.out.println("Child Constructor");
+	}
+	void color(){
+		System.out.println("Child");
+	}
+
+	public static void main(String[] args) {
+		Parent childRef = new Child();
+		//Child cd = new Child();
+		//Parent pare = new Parent();
+			childRef.color();
+		
+		// pare.color();
+	}
+
+}

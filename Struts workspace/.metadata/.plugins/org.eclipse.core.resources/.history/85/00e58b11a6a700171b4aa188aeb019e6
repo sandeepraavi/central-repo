@@ -1,0 +1,20 @@
+package inheritance;
+
+import java.util.Scanner;
+
+public class NumberLetter {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String inpStrng = sc.nextLine();
+		
+		for (int i = 0; i < inpStrng.length(); i++) {
+			for (int j = 97; j <=106 ; j++) {
+				if(inpStrng.charAt(i)==j){
+					System.out.println(j);
+				}	
+			}
+		}
+	}
+
+}

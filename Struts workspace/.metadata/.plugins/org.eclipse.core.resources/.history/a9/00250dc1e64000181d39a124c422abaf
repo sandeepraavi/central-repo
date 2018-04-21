@@ -1,0 +1,24 @@
+package methodOverriding;
+
+import java.io.IOException;
+
+public class Child extends Parent {
+	void color() throws Exception{
+		System.out.println("Child");
+	}
+
+	public static void main(String[] args) {
+		Parent childRef = new Child();
+		Child cd = new Child();
+		Parent pare = new Parent();
+		// cd.color();
+		try {
+			childRef.color();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// pare.color();
+	}
+
+}

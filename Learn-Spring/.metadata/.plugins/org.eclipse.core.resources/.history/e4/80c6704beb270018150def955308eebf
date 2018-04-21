@@ -1,0 +1,46 @@
+package controllers;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import beans.Student;
+
+@Controller
+public class StudentAdmissionController {
+
+	@InitBinder
+	public void initBinder(WebDataBinder binder) {
+		
+		binder.setDisallowedFields(new String[] {"studentMobile"});
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy****MM****dd");
+		binder.registerCustomEditor(Date.class, "studentDOB", new CustomDateEditor(dateFormat, false));
+	}
+
+	@RequestMapping(value="/admissionForm.html", method = RequestMethod.GET)
+	public ModelAndView getAdmissionForm() {
+
+		ModelAndView model1 = new ModelAndView("AdmissionForm");
+		
+		return model1;
+	}
+
+	@ModelAttribute
+    public void addingCommonObjects(Model model1) {
+		
+		model1.addAttribute("headerMessage", "Gontu College of Engineering, India");
+	}
+
+	@RequestMapping(value="/submitAdmissionForm.html", method = RequestMethod.POST)
+	public ModelAndView submitAdmissionForm(@ModelAttribute("student1") Student student, BindingResult result) {
+		
+		 if (result.hasErrors()) {
+
+				ModelAndView model1 = new ModelAndView("AdmissionForm");
+				return model1;
+		 }
+
+		ModelAndView model1 = new ModelAndView("AdmissionSuccess");
+		return model1;
+	}
+	
+}
+

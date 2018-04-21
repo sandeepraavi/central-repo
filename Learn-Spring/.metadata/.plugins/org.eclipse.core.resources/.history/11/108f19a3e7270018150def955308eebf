@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CollegeRegistration">
+        <property name="context-root" value="CollegeRegistration"/>
+        <property name="java-output-path" value="/CollegeRegistration/build/classes"/>
+    </wb-module>
+</project-modules>
